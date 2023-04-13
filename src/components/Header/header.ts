@@ -12,7 +12,7 @@ export const HeaderContainer = styled('div', {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    width: '50%',
+    width: '60%',
   },
 })
 

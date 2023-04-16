@@ -2,12 +2,15 @@ import React from 'react'
 import { CartMenuContainer, HeaderContainer, Logo, Nav } from './header'
 import { BsCart3, BsPerson, BsFilterRight } from 'react-icons/bs'
 import ResaleLink from '../ResaleLink'
+import Link from 'next/link'
 
 export function Header() {
   return (
     <HeaderContainer>
       <div className="logo-nav">
-        <Logo>RESALE-SHOP</Logo>
+        <Link href="/">
+          <Logo>RESALE-SHOP</Logo>
+        </Link>
         <Nav>
           <div>
             <ResaleLink href="#" content="Início" type="word" />

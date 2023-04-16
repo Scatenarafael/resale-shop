@@ -8,6 +8,13 @@ export const HeaderContainer = styled('div', {
   width: '90%',
   margin: '0 auto',
 
+  a: {
+    margin: '0',
+    padding: '0',
+    textDecoration: 'none',
+    color: '$gray900',
+  },
+
   '.logo-nav': {
     display: 'flex',
     justifyContent: 'space-between',

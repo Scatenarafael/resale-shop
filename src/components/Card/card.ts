@@ -12,11 +12,18 @@ export const CardContainer = styled('div', {
   border: '2px solid $gray900',
   backgroundColor: '$white',
 
-  img: {
+  a: {
+    height: '50%',
     width: 'auto',
     maxWidth: '100%',
-    height: '50%',
-    borderRadius: '15px',
+    margin: '0.2rem 0',
+    cursor: 'pointer',
+    img: {
+      width: 'auto',
+      maxWidth: '100%',
+      height: '100%',
+      borderRadius: '15px',
+    },
   },
 
   '.card-icon': {
